@@ -16,8 +16,6 @@ public class LowFrequency {
         if(intArray.length == 0)
             throw new IllegalArgumentException("Array can not be empty");
         HashMap<Integer, Integer> frequencyMap = new HashMap<>();
-        LinkedHashMap<Integer, List<Integer>> frequencySlot = new LinkedHashMap<>();
-        frequencySlot.put(1,new ArrayList<>());
         for(int number : intArray) {
             if (null != frequencyMap.putIfAbsent(number, 1)) {
                 frequencyMap.put(number, frequencyMap.get(number) + 1);
