@@ -22,4 +22,6 @@
    Provides a method balance which takes inital sum for
    the bank account, interest rate,tax free limit, tax rate and number of months as parameters and calculates the interest and taxes for this account for the number of months provided. It returns the final account balance.
 
-By: Stan Ivanov Date: 08.07.2020
+By: Stan Ivanov
+
+Date: 08.07.2020
